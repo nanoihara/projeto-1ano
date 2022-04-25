@@ -1,0 +1,179 @@
+/* Imagem no body (background) */
+body {
+	background-image: url(../img/cyanine.jpg);
+	background-attachment: fixed;
+}
+
+/* Deixar todos os tópicos (divs) com bordas redondas e contornadas */
+header, section, footer, nav {
+	/* border-radius permite definir bordas redondadas */
+	border-radius: 30px;
+	border: solid black;
+}
+
+h1 {
+	font: bolder 35px "Times New Roman", sans-serif;
+}
+
+/* Cabeçalho (título de lanota) */
+.cabecalho {
+	float: right;
+	width: 78.9%;
+	height: 240px;
+	margin-top: 5px;
+	text-align: center;
+
+	background-image: url(https://cdn.discordapp.com/attachments/638862360135598090/798352744976875560/PhotoGrid_1610412476539.png);
+	background-size: cover;
+}
+
+/* Logo e ícone de cabeçalho */
+#logo {
+	width: 350px;
+	margin-top: 10px;
+}
+
+#icon {
+	width: 185px;
+}
+
+/* Menu (Sumário) */
+.menu {
+	/*padding-left: 10px;*/
+	position: fixed;
+	background-image: url(../img/brown_paper.png);
+	width: 17.8%;
+	height: 94%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 10px;
+
+	/* cor dos números*/
+	color: yellow;
+}
+
+/* Ajustar o título do sumário */
+.menu h2 {
+	color: rgb(231, 187, 110);
+}
+
+/* Ajustar a frase linkada */
+.menu a {
+	color: white;
+	font: 20px "Times New Roman", sans-serif;
+}
+
+a {
+	color: rgb(118, 5, 20); 
+}
+
+/* Ajustar as imagens do sumário */
+.menu img {
+	width: 45px;
+	padding-left: 10%;
+	float: left;
+	padding-top: 1px;
+}
+
+/* Redes sociais dos criadores do jogo */
+.accounts {
+	float: right;
+	padding-right: 20%;
+	font-size: 20px;
+	color: #add8e6;
+	padding-bottom: 5%;
+}
+
+.accounts_below {
+	clear: both;
+	margin-top: 5px;
+}
+
+#rede_social {
+	font-size: 20px;
+}
+
+/* Seção principal (Conteúdo principal) */
+.section_principal {
+	background-image: url(../img/papiro.png);
+	background-size: cover;
+
+	float: right;
+	width: 73%;
+
+	margin-right: 2.35%;
+	margin-top: 25px;
+
+	padding-top: 30px;
+	padding-bottom: 75px;
+
+	text-align: center;
+
+	font: 20px arial, sans-serif;
+}
+
+/* Título dos tópicos */
+.section_principal h1 {
+	color: rgb(118, 5, 20);
+}
+ /* imagens/gifs para decoração */
+.image {
+	width: 650px;
+	border-radius: 30px;
+}
+
+/* legendas das imagens/gifs representativas */
+.subtitles {
+	font: 22.5px arial, sans-serif;
+	color: black;
+}
+
+/* p (todos os parágrafo) */
+p {
+	text-align: justify;
+	text-indent: 35px;
+
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+/* Footer (Referências utilizadas) */
+footer {
+	background-image: url(../img/water.png);
+	background-size: cover;
+
+	float: right;
+	width: 78.9%;
+	height: 350px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	text-align: justify;
+}
+
+footer li {
+	font: 20px "Times New Roman", sans-serif;
+	padding-right: 4%;
+}
+
+footer a {
+	color: green;
+	font-weight: bolder;
+}
+
+h2 {
+	padding-left: 20px;
+	color: #4B3621;
+	font-weight: bolder;
+}
+
+/* sequência das imagens para a mudança de tópico */
+.flicker {
+	width: 105px;
+}
+
+#site_creator {
+	float: right;
+	padding-right: 35px;
+	font: bolder italic 20px arial, sans-serif;
+}

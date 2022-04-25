@@ -1,0 +1,143 @@
+header {
+	/* border-radius permite definir bordas redondadas */
+	border-radius: 30px;
+	border: solid black;
+
+	float: right;
+	width: 78.9%;
+	height: 240px;
+	margin-top: 5px;
+	text-align: center;
+
+	background-image: url(https://cdn.discordapp.com/attachments/638862360135598090/798352744976875560/PhotoGrid_1610412476539.png);
+	background-size: cover;
+}
+
+body {
+	background-image: url(../img/cyanine.jpg);
+	background-attachment: fixed;
+}
+
+#logo {
+	width: 350px;
+	margin-top: 10px;
+}
+
+#icon {
+	width: 185px;
+}
+
+section {
+	background-image: url(../img/papiro.png);
+	background-size: cover;
+
+	float: right;
+	width: 73%;
+
+	margin-right: 2.35%;
+	margin-top: 25px;
+
+	padding-top: 30px;
+	padding-bottom: 75px;
+
+	text-align: center;
+
+	font: 20px arial, sans-serif;
+
+	border: solid black;
+	border-radius: 30px;
+}
+
+section h1 {
+	color: rgb(118, 5, 20);
+}
+
+/* Menu (Sumário) */
+.menu {
+	/*padding-left: 10px;*/
+	position: fixed;
+	background-image: url(../img/brown_paper.png);
+	width: 17.8%;
+	height: 94%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 10px;
+
+	/* cor dos números*/
+	color: yellow;
+	border-radius: 30px;
+	border: solid black;
+}
+
+/* Ajustar o título do sumário */
+.menu h2 {
+	color: rgb(231, 187, 110);
+}
+
+/* Ajustar a frase linkada */
+.menu a {
+	color: white;
+	font: 20px "Times New Roman", sans-serif;
+}
+
+/* Ajustar as imagens do sumário */
+.menu img {
+	width: 45px;
+	padding-left: 10%;
+	float: left;
+	padding-top: 1px;
+}
+
+/* Redes sociais dos criadores do jogo */
+.accounts {
+	float: right;
+	padding-right: 20%;
+	font-size: 20px;
+	color: #add8e6;
+	padding-bottom: 5%;
+}
+
+.accounts_below {
+	clear: both;
+	margin-top: 5px;
+}
+
+#rede_social {
+	font-size: 20px;
+}
+
+/* p (todos os parágrafo) */
+p {
+	text-align: justify;
+	text-indent: 35px;
+
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+/* legendas da imagem representativa */
+.subtitles {
+	font: 18px arial, sans-serif;
+	color: black;
+}
+
+h2 {
+	padding-left: 20px;
+	color: #4B3621;
+	font-weight: bolder;
+}
+
+/* sequência das imagens para a mudança de tópico */
+.flicker {
+	width: 105px;
+}
+
+#informacoes, ul {
+	text-align: left;
+	margin-left: 100px;
+}
+
+#personagem {
+	width: 600px;
+	border-radius: 30px;
+}
